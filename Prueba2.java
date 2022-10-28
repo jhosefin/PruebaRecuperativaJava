@@ -2,16 +2,17 @@ import java.io.Console;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-//? Don José todos los martes y jueves realiza un 20% de descuento en el total de las
-//		compras, crea una función la cual debe recibir un parámetro del día y el arreglo de
-//		valores de los productos a comprar, esta debe retornar el total final de la compra según
-//		corresponda o no descuento.
 
 public class Prueba2 {
 
 
 
     public static void main(String[] args) {
+
+        //? Don José todos los martes y jueves realiza un 20% de descuento en el total de las
+//		compras, crea una función la cual debe recibir un parámetro del día y el arreglo de
+//		valores de los productos a comprar, esta debe retornar el total final de la compra según
+//		corresponda o no descuento.
 
         //ArrayList <Integer> valorProducto = new ArrayList <Integer>(Arrays.asList());
 
@@ -74,7 +75,7 @@ if (productos > 3){
             var procesando = suma - (suma * 0.20);
             System.out.println("Suerte!! Hoy tenemos descuento, su total seria de  "  + procesando);
         }else{
-            System.out.println("Oups!! Debe comprar un producto con un precio mayor a 10.000 para obtener el descuento";);
+            System.out.println("Oups!! Debe comprar un producto con un precio mayor a 10.000 para obtener el descuento");
 
         }
 
